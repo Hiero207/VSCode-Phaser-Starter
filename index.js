@@ -26,6 +26,10 @@ var config = {
       gravity: { y: 600 },
       debug: false,
     },
+  }, 
+  scale: {
+    parent: 'game', 
+    autoCenter: Phaser.Scale.CENTER_BOTH
   },
   scene: mainScreen
 };
